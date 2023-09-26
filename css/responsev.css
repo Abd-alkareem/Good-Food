@@ -1,0 +1,106 @@
+/* larg screen */
+/* @media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+} */
+/* mediom screen */
+/* @media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+} */
+/* tablet */
+/* @media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+} */
+/* mobile */
+/* @media (min-width: 576px) {
+    .container {
+        width: 750px;
+    }
+} */
+/*  */
+/*  */
+/*  */
+
+@media (max-width: 768px) {
+    .blue {
+        height: 60%;
+        width: 103.5%;
+        background: linear-gradient(271deg, #2193B0, #6DD6ED);
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: -30px;
+        top: -68px;
+    }
+
+    .landing {
+        min-height: 90vh;
+    }
+
+    .landing .container {
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .landing .container .slider {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 500px;
+        width: 60%;
+        background-color: white;
+        border-radius: 22px;
+        align-items: center;
+        top: 10%;
+        left: 0;
+        box-shadow: 0px 0px 1px 0px black;
+        justify-content: space-around;
+    }
+
+    .landing .container .slider .grren {
+        display: none;
+    }
+
+    .landing .container .content {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 40%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .landing .container .content .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100px;
+        font-size: 45px;
+        font-weight: bold;
+        position: relative;
+        margin: 10px auto;
+        top: 20px;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .landing .container .content p {
+        line-height: 1.6;
+        color: #777;
+        width: 90%;
+        text-align: center;
+        margin: 26px auto;
+    }
+
+    .landing .container .y-name {
+        display: none;
+    }
+}
